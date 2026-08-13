@@ -1,0 +1,12 @@
+# Never publish production data
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+admin/storage/
+site-admin/storage/
+admin/assets/uploads/
+site-admin/uploads/
+*.apk
